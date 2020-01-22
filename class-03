@@ -1,0 +1,65 @@
+--------------------------------- CHAPTER 3 ---------------------------------
+LISTS
+
+HTMl lists live within an <ol></ol> tag or <ul></ul> tag. The difference between the two is that "ol" will make an ordered list using numbers. The "ul" tag will make an unordered list with bullet points rather than numbers.
+Living inside of your "ol" or "ul" elements will be <li></li> which stands for "list item".
+<ul>
+  <li>Alchemy</li>
+  <li>Code</li>
+  <li>Lab</li>
+ </ul>
+ ...
+ This code would come out as a bulleted list that says:
+ Alchemy
+ Code
+ Lab
+ 
+ ...
+ 
+ <ol>
+  <li>Alchemy</li>
+  <li>Code</li>
+  <li>Lab</li>
+ </ol>
+ ...
+ This code would out as a numbered list that says:
+ 1. Alchemy
+ 2. Code
+ 3. Lab
+ 
+ --------------------------------- CHAPTER 13 ---------------------------------
+ BOXES
+ 
+ This chapter goes over how to manage and edit HTML boxes. 
+ A person could edit the dimensions of a box within their HTML code or target specific sections using CSS and then style the HTML from there.
+ 
+ In order to address overflowing content you can either do {overflow: hidden;} or {overflow: scroll;} in your CSS file where you target the element that is overflowing in HTML.
+ The "overflow: hidden;" option will hide any extra content that doesn't fit inside of a box and the "overflow: scroll;" option will allow a person to scroll down in a box if the content gets cut off.
+ 
+ Padding and margin are responsible for adding space between elements especially items with borders. If you have three items whose borders are overlapping one another then padding and margin are a quick solution to add space and clarity between them.
+ According to the textbook, "margins sit outside the edge of the border. You can set the width of a margin to create a gap between the borders of two adjacent boxes."
+ "Padding is the space between the border of a box and any content contained within it."
+ 
+ Moreover, the chapter goes over border width and different options to address the thickness of a border and border style which are things like dotted lines, dashed lines, lighter or darker black borders, etc.
+ 
+ One cool piece of the chapter was on page 311 that goes over adding color to a border and how to add a variety of colors to a single border
+    The CSS code in the textbook is "border-color: #bbbbaa #111111 #ee3e80 #0088dd;" which creates a border that's four different colors
+    
+ --------------------------------- CHAPTER 4 of Javascript textbook ---------------------------------
+ A switch statement is similar to an if - else statement, but a bit more specific.
+ Inside of the switch statement you code a variety of "case"s that cover a variety of outcomes. If any of the outcomes are ever called on then a code will be run accordingly.
+ For example, in our rock paper scissors game I used a switch statement with three cases... win, loss, draw. Inside of those cases there were three outcomes. The outcomes were a variety of scenarios that would either return a "win" "loss" or "draw" to the user according to the outcome of the game.
+ 
+ In the textbook, switch statements have a variety of cases with specific functions if those cases are called. If none of the cases are called then the switch statement goes straight to a "default" which has its own function.
+ 
+ Truthy & falsy values: "due to type coercion, every value in JavaScript can be treated as if it were true or false; and this has some interesting side effects."
+    Falsy value: "treated as if they are false" --> can also be treated as the number 0
+    Truthy value: "treated as if they are true" --> can also be treated as the number 1
+    
+ Loop counters ...
+    for (let i = 0; i < 10; i++) {
+      document.write(i);
+    } --> this would run a loop that counts from 0 to 9.
+    
+  
+ 
